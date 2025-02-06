@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;}
+       table{
+            
+            margin: auto;
+        }
+        td {
+      width: 80px;
+      height: 80px;
+      text-align: center;
+      font-size: 40px;
+        
+       }
+       .child1:nth-child(odd)>td:nth-child(even),
+       .child2:nth-child(even)>td:nth-child(odd){
+        background: black;
+       }
+       i{
+        color: rgb(207, 13, 77)
+       }
+       table tr td:hover{
+            background: rgb(207, 13, 77);
+        }
+    </style>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <table border="4px"   width="50%"   height="600vh" cellpadding="0" cellspacing="0" >
+        <h1 style="color: rgb(189, 35, 86); font-size: xx-large;"><center>Chess Board</center></h1>
+        <tr class="child1">
+            <td><i class="fa-solid fa-chess-rook"></i></td>
+            <td><i class="fa-solid fa-chess-knight"></i></td>
+            <td><i class="fa-solid fa-chess-bishop"></i></td>
+            <td><i class="fa-solid fa-chess-queen"></i></td>
+            <td><i class="fa-solid fa-chess-king"></i></td>
+            <td><i class="fa-solid fa-chess-bishop"></i></td>
+            <td><i class="fa-solid fa-chess-knight"></i></td>
+            <td><i class="fa-solid fa-chess-rook"></i></td>
+        </tr>
+        <tr class="child2">
+           <td><i class="fa-solid fa-chess-pawn"></i></td> 
+           <td><i class="fa-solid fa-chess-pawn"></i></td> 
+           <td><i class="fa-solid fa-chess-pawn"></i></td>
+           <td><i class="fa-solid fa-chess-pawn"></i></td>
+           <td><i class="fa-solid fa-chess-pawn"></i></td>
+           <td><i class="fa-solid fa-chess-pawn"></i></td>
+           <td><i class="fa-solid fa-chess-pawn"></i></td>
+           <td><i class="fa-solid fa-chess-pawn"></i></td> 
+        </tr>
+        <tr class="child1">
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td> 
+           <td></td>
+           <td></td>
+           <td></td>
+           <td></td>
+        </tr>
+        <tr class="child2">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="child1">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="child2">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="child1">
+            <td><i class="fa-solid fa-chess-pawn"></i></td> 
+            <td><i class="fa-solid fa-chess-pawn"></i></td> 
+            <td><i class="fa-solid fa-chess-pawn"></i></td>
+            <td><i class="fa-solid fa-chess-pawn"></i></td>
+            <td><i class="fa-solid fa-chess-pawn"></i></td>
+            <td><i class="fa-solid fa-chess-pawn"></i></td>
+            <td><i class="fa-solid fa-chess-pawn"></i></td>
+            <td><i class="fa-solid fa-chess-pawn"></i></td> 
+        </tr>
+        <tr class="child2">
+            <td><i class="fa-solid fa-chess-rook"></i></td>
+            <td><i class="fa-solid fa-chess-knight"></i></td>
+            <td><i class="fa-solid fa-chess-bishop"></i></td>
+            <td><i class="fa-solid fa-chess-queen"></i></td>
+            <td><i class="fa-solid fa-chess-king"></i></td>
+            <td><i class="fa-solid fa-chess-bishop"></i></td>
+            <td><i class="fa-solid fa-chess-knight"></i></td>
+            <td><i class="fa-solid fa-chess-rook"></i></td>
+            
+            
+        </tr>
+    </table>
+</body>
+</html>
